@@ -60,7 +60,7 @@ request.setCharacterEncoding("UTF-8");
 				script.println("alert('글 수정에 실패했습니다.')");
 				script.println("history.back()");
 				script.println("</script>");
-			}
+			} 
 			else {
 				PrintWriter script = response.getWriter();
 				script.println("<script>");

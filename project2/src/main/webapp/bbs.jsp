@@ -85,7 +85,7 @@
 						BbsDAO bbsDAO = new BbsDAO();
 						ArrayList<Bbs> list = bbsDAO.getList(pageNumber);
 						for(int i = 0; i<list.size(); i++){
-					%>
+					%> 
 					<tr>
 						<td><%= list.get(i).getBbsID() %></td>
 						<td><a href = "view.jsp?bbsID=<%= list.get(i).getBbsID() %>"><%= list.get(i).getBbsTitle() %></a></td>
